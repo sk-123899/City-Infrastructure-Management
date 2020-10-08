@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Project</title>
+    </head>
+    <link rel="stylesheet" href="Project.css">
+    <body>
+        <div class="Nav">
+            <div class = "leftNav">
+                <a href="Home.html">Home</a>
+                <a href="#">My Account</a>
+                <a href="#">Projects</a>
+                <a href="#">About Us</a>
+            </div>
+            <div class="rightNav">
+                <a href="#">FAQ's</a>
+                <a href="Login.html">Register</a>
+            </div>
+        </div>
+        <hr>
+        <div class="project">
+                <h1 style ="padding-left:25%;">Project Details</h1>
+            <form onsubmit="return regExp()" action="Project.html">
+                
+                <label for="fname"  class="project-label" >First Name:</label>
+                <input id ="fname", type="text",name="fname" class="project-input"placeholder = "Enter First Name" >
+                <label for="lname" class="project-label">Last Name:</label>
+                <input id ="lname", type="text", name="lname"placeholder = "Enter Last Name" class="project-input" >  
+                <label for="city" class="project-label">City:</label>
+                <input id ="city", type="text", name="city"placeholder = "Enter City" class="project-input" >  
+                <label for="state" class="project-label">State:</label>
+                <input id ="state", type="text", name="state"placeholder = "Enter State"  class="project-input">  
+                
+                <div class="radio">
+                    <label for="region"class="project-label" >Region:</label>
+                    <input id ="region",  type="radio", name="region"class="radio-input">
+                    <label for="region"class="radio-label"  >Resedential</label> 
+                    <input id ="region", type="radio", name="region" class="radio-input">
+                    <label for="region", class="radio-label" >Non-Resedential</label>  
+                        
+
+                </div>
+                
+                <div class="checkbox">
+                        <label for="purpose" class="project-label">Project:</label>
+                        <input id ="purpose", type="checkbox", name="purpose" class="checkbox-input">
+                        <label for="purpose" class="checkbox-label">House</label> 
+                        <input id ="purpose", type="checkbox", name="purpose" class="checkbox-input">
+                        <label for="purpose"class="checkbox-label">Appartment</label> 
+                        <input id ="purpose", type="checkbox", name="purpose" class="checkbox-input" >
+                        <label for="purpose"class="checkbox-label">Restaurant</label> 
+                        <input id ="purpose", type="checkbox", name="purpose"  class="checkbox-input">
+                        <label for="purpose"class="checkbox-label">Hotel</label> 
+                        <input id ="purpose", type="checkbox", name="purpose"  class="checkbox-input">
+                        <label for="purpose"class="checkbox-label">Company</label> 
+                        <input id ="purpose", type="checkbox", name="purpose" class="checkbox-input" >
+                        <label for="purpose"class="checkbox-label">Shop</label> 
+                        <input id ="purpose", type="checkbox", name="purpose"  class="checkbox-input">
+                        <label for="purpose"class="checkbox-label">Other</label>  
+                        
+                </div>
+                <label for="other"class="project-label">Other Project:</label>
+                <input id ="other", type="text", name="other"placeholder = "Enter Other Project-Ideas" class="project-input" >  
+                
+                <label for="area"class="project-label">Area (sq.ft):</label>
+                <input id ="area", type="tel", name="area" placeholder = "Enter Area (sq.ft)" class="project-input" >  
+
+                <label for="mob"class="project-label">Contact Number:</label>
+                <input id ="mob", type="tel", name="mob" placeholder = "Enter Mobile Number" class="project-input"> 
+                
+                <label for="file" class="project-label">Address Proof (Aadhar/Pan/License):</label>
+                <input id="file", type="file", name="file" class="address-input" >
+                
+                <button type="submit" class="project-button">Submit</button>
+                
+            </form>
+        </div>
+
+        <script type="text/javascript" src="Project.js"></script>
+    </body>
+</html>

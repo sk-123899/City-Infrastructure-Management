@@ -1,0 +1,93 @@
+.Nav{
+    height: 30px;
+    padding-top: 20px;
+    background: #0a297f59;
+}
+.leftNav{
+    list-style-type: none;
+    float: left;
+   }
+
+.rightNav{
+    float: right;
+    padding-right: 25px;
+}
+
+.leftNav a{
+    padding-left: 25px;
+    color: black;
+
+}
+
+.rightNav a{
+    padding-left: 25px;
+    color: black;
+
+}
+.registration{
+    padding-top: 10px;
+    font-size:40px;
+    text-align: center;
+
+}
+.Login{
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 35%;
+}
+
+input{
+    height: 36px;
+    padding-left: 20px;
+    display: block;
+    margin: 0px;
+    width: 95%;
+    border: 1px solid #c6c0c0;
+    border-radius: 3px;
+    background: #ccc4c421;
+    padding-left: 11px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 7px;  
+}
+
+.SubmitB{
+    text-align: center;
+    padding: 8px;
+    padding-top: 10px;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    background: #3e3effd4;
+    font-size: 15px;
+    border: none;
+}
+
+form h1{
+   padding: 0;
+    margin: 0;
+}
+
+form div input{
+    margin-bottom : 18px;
+}
+
+form div label{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#first-input-div{
+    margin-top: 25px;
+}
+
+.my-login-button-div{
+    text-align: center; 
+}

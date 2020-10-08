@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.Nav{
+    height: 30px;
+    padding-top: 20px;
+    background: #faebd730;
+}
+
+a {
+    font-size: 20px;
+}
+
+.Title{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    color: #c55811;
+}
+.leftNav{
+    list-style-type: none;
+    float: left;
+   }
+
+.rightNav{
+    float: right;
+    padding-right: 25px;
+}
+
+.leftNav a{
+    padding-left: 25px;
+    color: black;
+
+}
+
+.rightNav a{
+    padding-left: 25px;
+    color: black;
+
+}
+
+.midpage{
+    padding-top: 30px;
+}
+
+.vertical1{
+    border-left: 1px solid rgb(150, 146, 146);
+    left: 20%;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+}
+.Notices{
+    padding-left: 40px;
+    font-size: 35px;
+}
+
+.background{
+    background-image: url('BackgroundImg.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100% important;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 3%;
+    padding-right: 3%; 
+}
+.ListNot{
+    font-size: 25px;
+    list-style-type: &#9658;
+    display: relative;
+    
+}
+.Not{
+    float: left;
+    padding-left: 10px;
+    border: 1px solid black;
+    width :18%;
+    height: 400px;
+    color: black;
+    background-color: #faebd787;
+    border-radius: 15px;
+}
+
+.Login{
+    border: 2px solid #856b58;
+    padding-top: 50px;
+    position: absolute;
+    left: 37%;
+    height: 230px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px 8px rgb(0 0 0 / 19%), 0 6px 20px 2px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    background: #b5abab40;
+}
+.vertical2{
+    border-left: 1px solid rgb(150, 146, 146);
+    right: 20%;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+}
+
+.AddProject{
+    margin: 0;
+    float: right;
+    padding-right: 2px;
+    font-size: 25px;
+    border: 1px solid black;
+    width :18%;
+    height: 370px;
+    color: black;
+    background-color: #faebd787;
+    border-radius: 15px;
+
+}

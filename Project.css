@@ -1,0 +1,98 @@
+.Nav{
+    height: 30px;
+    padding-top: 20px;
+    background: #0a297f59;
+}
+.leftNav{
+    list-style-type: none;
+    float: left;
+   }
+
+.rightNav{
+    float: right;
+    padding-right: 25px;
+}
+
+.leftNav a{
+    padding-left: 25px;
+    color: black;
+
+}
+
+.rightNav a{
+    padding-left: 25px;
+    color: black;
+
+}
+
+.project{
+    margin: auto;
+    padding-top: 15px;
+    margin-top: 20px;
+    padding-left: 50px;
+    border: 1px solid black;
+    width: 500px;
+    left: 28%;
+}
+
+.project-label{
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+}
+.project-input{
+    display: block;
+    margin-top: 7px;
+    width: 80%;
+    height: 35px;
+    border: 1px solid #c6c0c0;
+    border-radius: 3px;
+    background: #ccc4c421;
+}
+
+.radio-label{
+    font-weight: 600;
+    display: block;
+    padding-left: 30px;
+    margin-top: 7px;
+}
+.radio input{
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.checkbox-input{
+    display: block;
+    padding-left: 0px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+
+.checkbox-label{
+    font-weight: 600;
+    margin-top: 8px;
+    display: block;
+    margin-left: 30px;
+}
+
+.address-input{
+    margin-top: 10px;
+}
+.project-button{
+    margin-left: 35%;
+    text-align: center;
+    margin-top: 14px;
+    width: 20%;
+    height: 5%;
+    border-radius: 10px;
+    background: #3e3effd4;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    padding-left: 6px;
+    padding-top: 0px;
+    border: none;
+}
+
